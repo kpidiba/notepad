@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar layoutY="1.0" prefHeight="26.0" prefWidth="600.0" style="-fx-background-color: white;" stylesheets="@../resources/styles/style.css" AnchorPane.topAnchor="0.0">
+         <menus>
+            <Menu id="menu-button" mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" style="background-color: #F1A22211;" text="New Tab            Ctrl+N" />
+                  <MenuItem mnemonicParsing="false" text="New Window    Ctrl+Shift+N" />
+                  <MenuItem mnemonicParsing="false" text="Open                 Ctrl+O" />
+                  <MenuItem mnemonicParsing="false" text="Save                  Ctrl+S" />
+                  <MenuItem mnemonicParsing="false" text="Save As             Ctrl+Shift+S" />
+                  <MenuItem mnemonicParsing="false" text="Save All             Ctrl+Alt+S" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Close Tab" />
+                  <MenuItem mnemonicParsing="false" text="Close Window" />
+                  <MenuItem mnemonicParsing="false" text="Exit" />
+               </items>
+            </Menu>
+            <Menu id="edit-button" mnemonicParsing="false" text="Edit">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+               </items>
+            </Menu>
+            <Menu id="view-button" mnemonicParsing="false" text="View">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <TextArea layoutX="-7.0" layoutY="26.0" prefHeight="374.0" prefWidth="557.0" style="-fx-background-color: fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,7 @@
+.menu-bar .menu {
+    -fx-font-weight: 700;
+}
+
+.menu .menu-item {
+    -fx-font-weight: normal;
+}
